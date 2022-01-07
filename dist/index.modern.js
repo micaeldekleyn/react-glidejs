@@ -292,7 +292,7 @@ var Glide = forwardRef(function (props, ref) {
   return React.createElement("div", {
     ref: glideRef,
     className: className,
-    style: _extends({}, styles, style)
+    style: _extends({}, styles, {}, style)
   }, React.createElement("div", {
     className: "slider__track glide__track",
     "data-glide-el": "track"
